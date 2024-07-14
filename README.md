@@ -1,6 +1,6 @@
 # Deploying 3 Tier Architecture Application Using IaC
 
-This project utilizes modern DevOps practices to deploy a scalable and cost-effective infrastructure for a pizza store application on Amazon Web Services (AWS). The deployment process is automated using Terraform modules and a parameterized Jenkins pipeline to build and deploy the entire application.
+This project utilizes modern DevOps practices to deploy a scalable and cost-effective infrastructure for a pizza store application on Amazon Web Services (AWS). The deployment process is automated using Terraform modules to build and deploy the entire application.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,11 +10,10 @@ This project utilizes modern DevOps practices to deploy a scalable and cost-effe
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Conclusion](#conclusion)
-- [License](#license)
 
 ## Introduction
 
-This project demonstrates the benefits of infrastructure as code (IaC) and continuous integration/continuous deployment (CI/CD) practices using Terraform and Jenkins. The goal is to deploy a resilient and scalable infrastructure to support a pizza store web application.
+This project demonstrates the benefits of infrastructure as code (IaC) practices using Terraform. The goal is to deploy a resilient and scalable infrastructure to support a pizza store web application.
 
 ## Architecture
 
@@ -41,7 +40,6 @@ Before you begin, ensure you have the following:
 - AWS Secret Key and Access Key
 - MongoDB Atlas Private Key and Public Key
 - Terraform installed on your local machine
-- Jenkins installed and configured
 
 ## Setup Instructions
 
@@ -70,12 +68,8 @@ Follow these steps to set up and deploy the infrastructure:
 
 ## Usage
 
-The deployment process is orchestrated through a parameterized Jenkins pipeline, which allows for flexible and customizable builds and deployments of the application. This approach streamlines the development workflow, ensuring efficient and reliable application delivery.
+The deployment process is automated using Terraform modules, which allows for consistent and reproducible deployments of the application. This approach streamlines the development workflow, ensuring efficient and reliable application delivery.
 
 ## Conclusion
 
-By leveraging Terraform and Jenkins, this project simplifies infrastructure management and enhances visibility into the deployed resources. Security and high availability considerations are optimized to ensure the pizza store application can handle high traffic volumes while maintaining optimal performance.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+By leveraging Terraform, this project simplifies infrastructure management and enhances visibility into the deployed resources. Security and high availability considerations are optimized to ensure the pizza store application can handle high traffic volumes while maintaining optimal performance.
