@@ -51,17 +51,22 @@ Follow these steps to set up and deploy the infrastructure:
     cd 3-Tier-App-Deployment-Using-Infrastructure-as-code
     ```
 
-2. **Initialize Terraform**:
+2. **Replace your Credentials**:
+    ```bash
+    In the provider.tf replace your credentials.
+    ```
+
+3. **Initialize Terraform**:
     ```bash
     terraform init
     ```
 
-3. **Plan the deployment**:
+4. **Plan the deployment**:
     ```bash
     terraform plan
     ```
 
-4. **Apply the deployment**:
+5. **Apply the deployment**:
     ```bash
     terraform apply --auto-approve
     ```
